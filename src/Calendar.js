@@ -114,6 +114,7 @@ export default class Calendar extends React.Component {
 		var months = [];
 		var dateUTC;
 		var monthIterator = startDate;
+		monthIterator.setDate(1);
 		var {isFutureDate, startFromMonday} = this.props;
 
 		var startUTC = Date.UTC(startDate.getYear(), startDate.getMonth(), startDate.getDate());
