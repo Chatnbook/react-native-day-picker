@@ -1,8 +1,6 @@
 'use strict';
 
-import React, {
-	PropTypes
-}               from 'react';
+import React from 'react';
 import {
 	ListView,
 	StyleSheet,
@@ -46,7 +44,7 @@ export default class Calendar extends React.Component {
 		rangeSelect: true
 	};
 
-	static propTypes = {
+	/* static propTypes = {
 		selectFrom: PropTypes.instanceOf(Date),
 		selectTo: PropTypes.instanceOf(Date),
 
@@ -81,7 +79,7 @@ export default class Calendar extends React.Component {
 
 		isFutureDate: PropTypes.bool,
 		rangeSelect: PropTypes.bool
-	};
+	}; */
 
 	constructor(props) {
 		super(props);
